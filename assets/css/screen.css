@@ -308,6 +308,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .social-link svg {
     height: 1.8rem;
+    width: 1.8rem;
     fill: #fff;
 }
 
@@ -2248,8 +2249,8 @@ Usage (In Ghost editor):
 
 .site-footer {
     position: relative;
-    padding-top: 20px;
-    padding-bottom: 60px;
+    padding-top: 6px;
+    padding-bottom: 4px;
     color: #fff;
     background: color(var(--darkgrey) l(-15%));
 }

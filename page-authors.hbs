@@ -15,12 +15,12 @@
         {{#foreach users}}
           <article class="post-card {{#unless profile_image}} no-image{{/unless}}">
             {{#if profile_image}}
-              <a class="post-card-image-link" href="">
+              <a class="post-card-image-link" href="{{url}}">
                 <div class="post-card-image" style="background-image: url({{profile_image}})"></div>
               </a>
             {{/if}}
             <div class="post-card-content">
-              <a class="post-card-content-link" href="{% raw %}{{url}}">
+              <a class="post-card-content-link" href="{{url}}">
                 <header class="post-card-header">
                   <h2 class="post-card-title">{{name}}</h2>
                 </header>
